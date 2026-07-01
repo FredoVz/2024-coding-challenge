@@ -1,6 +1,7 @@
 // Fredo Coding Challenge 2024
 // 1/366
-// https://www.codewars.com/kata/57f780909f7e8e3183000078
+// Source = https://www.codewars.com/kata/57f780909f7e8e3183000078
+// Level 8 Kyu
 
 //Cara 1 - Function Declaration
 function grow1(x) {
@@ -20,6 +21,6 @@ function grow2(x) {
 //Cara 3 - Function Expression yang menerima arrow function dan menggunakan reduce
 const grow3 = (x) => x.reduce((acc, curr) => acc * curr);
 
-console.log(grow1([1, 2, 3, 4]));
-console.log(grow2([1, 2, 3, 4]));
-console.log(grow3([1, 2, 3, 4]));
+grow = grow3;
+
+console.log(grow([1, 2, 3, 4]));
