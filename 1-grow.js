@@ -3,6 +3,7 @@
 // Title = Beginner - Reduce but Grow
 // By = PG1
 // Level 8 Kyu
+// Tipe soal = Fundamentals & Arrays
 // Source = https://www.codewars.com/kata/57f780909f7e8e3183000078
 
 //Cara 1 - Function Declaration
