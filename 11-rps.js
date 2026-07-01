@@ -52,7 +52,7 @@ const rps4 = (p1, p2) => {
       : "Player 2 won!";
 };
 
-//Cara 5 - One Line Ternary Operator (Tanpa return)
+// Cara 5 - One Line Ternary Operator (Tanpa return)
 const rps5 = (p1, p2) =>
   p1 === p2
     ? "Draw"
