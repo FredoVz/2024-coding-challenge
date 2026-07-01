@@ -1,7 +1,9 @@
 // Fredo Coding Challenge 2024
 // 1/366
-// Source = https://www.codewars.com/kata/57f780909f7e8e3183000078
+// Title = Beginner - Reduce but Grow
+// By : PG1
 // Level 8 Kyu
+// Source = https://www.codewars.com/kata/57f780909f7e8e3183000078
 
 //Cara 1 - Function Declaration
 function grow1(x) {
