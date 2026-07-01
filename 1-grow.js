@@ -24,6 +24,6 @@ function grow2(x) {
 //Cara 3 - Function Expression yang menerima arrow function dan menggunakan reduce
 const grow3 = (x) => x.reduce((acc, curr) => acc * curr);
 
-grow = grow3;
+const grow = grow3;
 
 console.log(grow([1, 2, 3, 4]));

@@ -26,6 +26,6 @@ const hero3 = (bullets, dragons) => bullets / 2 >= dragons;
 // Cara 4 - Function Expression
 const hero4 = (bullets, dragons) => bullets >= dragons * 2;
 
-hero = hero4;
+const hero = hero4;
 
 console.log(hero(10, 5));

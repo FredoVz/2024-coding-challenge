@@ -30,6 +30,6 @@ const reverseSeq3 = (n) => [...Array(n)].map((el, i) => i + 1).reverse();
 //Cara 4 - Array Spread Operator (Tanpa reverse)
 const reverseSeq4 = (n) => [...Array(n)].map((el, i) => n - i);
 
-reverseSeq = reverseSeq4;
+const reverseSeq = reverseSeq4;
 
 console.log(reverseSeq(5));
