@@ -6,7 +6,7 @@
 // Tipe soal = Fundamentals
 // Source = https://www.codewars.com/kata/5a00e05cc374cb34d100000d
 
-//Cara 1 - For Loop
+// Cara 1 - For Loop
 const reverseSeq1 = (n) => {
   const result = [];
   for (let i = n; i >= 1; i--) {
@@ -16,7 +16,7 @@ const reverseSeq1 = (n) => {
   return result;
 };
 
-//Cara 2 - Array Fill
+// Cara 2 - Array Fill
 const reverseSeq2 = (n) => {
   return Array(n)
     .fill()
@@ -24,10 +24,10 @@ const reverseSeq2 = (n) => {
     .reverse();
 };
 
-//Cara 3 - Array Spread Operator (Pakai reverse)
+// Cara 3 - Array Spread Operator (Pakai reverse)
 const reverseSeq3 = (n) => [...Array(n)].map((el, i) => i + 1).reverse();
 
-//Cara 4 - Array Spread Operator (Tanpa reverse)
+// Cara 4 - Array Spread Operator (Tanpa reverse)
 const reverseSeq4 = (n) => [...Array(n)].map((el, i) => n - i);
 
 const reverseSeq = reverseSeq4;

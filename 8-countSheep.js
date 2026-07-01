@@ -26,12 +26,12 @@ var countSheep2 = function (num) {
   return result;
 };
 
-//Cara 3 - Spread Operator
+// Cara 3 - Spread Operator
 var countSheep3 = function (num) {
   return [...Array(num)].map((_, i) => `${i + 1} sheep...`).join("");
 };
 
-//Cara 4 - Function Expression
+// Cara 4 - Function Expression
 const countSheep4 = (num) =>
   [...Array(num)].map((_, i) => `${i + 1} sheep...`).join("");
 
