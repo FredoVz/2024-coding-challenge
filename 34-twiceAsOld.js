@@ -1,9 +1,9 @@
 // Fredo Coding Challenge 2024
 // 34/366
-// Title = Find the first non-consecutive number
-// By = thecodeite
+// Title = Twice as old
+// By = petrosernivka
 // Level 8 Kyu
-// Tipe soal = Arrays & Fundamentals
+// Tipe soal = Fundamentals & Mathematics
 // Source = https://www.codewars.com/kata/5b853229cfde412a470000d0
 
 // Cara 1 - Declaration Function
