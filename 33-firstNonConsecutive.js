@@ -18,6 +18,11 @@ function firstNonConsecutive1(arr) {
   return null;
 }
 
-const firstNonConsecutive = firstNonConsecutive1;
+// Cara 2 - Find
+function firstNonConsecutive2(arr) {
+  return arr.find((e, i) => e !== arr[0] + i) ?? null;
+}
+
+const firstNonConsecutive = firstNonConsecutive2;
 
 console.log(firstNonConsecutive([1, 2, 3, 4, 6, 7, 8]));
