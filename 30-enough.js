@@ -28,6 +28,6 @@ function enough4(cap, on, wait) {
   return Math.max(wait + on - cap, 0);
 }
 
-const enough = enough3;
+const enough = enough4;
 
 console.log(enough(75, 70, 46));
