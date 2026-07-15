@@ -1,5 +1,5 @@
 // Fredo Coding Challenge 2023 (Live)
-// 48/366
+// 1/366
 // Title = Stop gninnipS My sdroW!
 // By = xDranik
 // Level 6 Kyu
