@@ -37,7 +37,7 @@ function sum3(numbers) {
   return numbers.reduce((acc, curr) => acc + curr, 0);
 }
 
-// Cara 4 eval numbers join & Nullish coalescing
+// Cara 4 - Eval numbers join & Nullish coalescing
 function sum4(numbers) {
   return eval(numbers.join("+")) ?? 0;
 }
