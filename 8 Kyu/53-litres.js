@@ -14,7 +14,10 @@ function litres1(time) {
 // Cara 2 - Arrow Function (Math Floor)
 const litres2 = (time) => Math.floor(time / 2);
 
-const litres = litres2;
+// Cara 3 - Arrow Function (ParseInt)
+const litres3 = (time) => parseInt(time / 2);
+
+const litres = litres3;
 
 console.log(litres(0), 0, "litres(0) should return 0");
 console.log(litres(1), 0, "litres(1) should return 0");
