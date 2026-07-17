@@ -17,7 +17,35 @@ function getMiddle1(s) {
 
 // Cara 2 - Arrow Function Ternary Operator
 const getMiddle2 = (s) => (s.length % 2 === 1 ? s.charAt(s.length / 2) : s.charAt(s.length / 2 - 1) + s.charAt(s.length / 2));
-const getMiddle = getMiddle1;
+
+// Cara 3 - Split Map Join (Bug Angka Ganjil)
+function getMiddle3(s) {
+  return s.split("").length % 2 == 0
+    ? s
+        .split("")
+        .map(function (e, i) {
+          return i == s.split("").length / 2 ? e : i + 1 == s.split("").length / 2 ? e : "";
+        })
+        .filter((e) => e !== "")
+        .join("")
+    : s
+        .split("")
+        .map(function (e, i) {
+          return i == s.split("").length / 2 ? e : "";
+        })
+        .filter((e) => e !== "")
+        .join("");
+}
+
+// Cara 4 - Substring, Math Ceil, Ternary Operator
+function getMiddle4(s) {
+  return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+}
+
+// Cara 5 - Arrow Function Substring, Math Ceil, Ternary Operator
+const getMiddle5 = (s) => s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+
+const getMiddle = getMiddle5;
 
 console.log(getMiddle("fredo"));
 console.log(getMiddle("test"));
