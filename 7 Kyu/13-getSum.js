@@ -8,8 +8,8 @@
 
 // Cara 1 - If For Loop
 function getSum1(a, b) {
-  const min = a < b ? a : b;
-  const max = a > b ? a : b;
+  const min = Math.min(a, b); // a < b ? a : b;
+  const max = Math.max(a, b); // a > b ? a : b;
   let sum = 0;
   if (a === b) return a;
 
