@@ -6,11 +6,14 @@
 // Tipe soal = Strings & Fundamentals
 // Source = https://www.codewars.com/kata/5390bac347d09b7da40006f6
 
-String.prototype.toJadenCase = function () {
-  this.split(" ")
-    .map((kata) => kata[0].toUpperCase() + kata.substring(1))
-    .join(" ");
-};
+//Cara 1 - Split, Map. toUpperCase, Substring, Join
+Object.defineProperty(String.prototype, "toJadenCase", {
+  value: function toJadenCase() {
+    return this.split(" ")
+      .map((kata) => kata[0].toUpperCase() + kata.substring(1))
+      .join(" ");
+  },
+});
 
 const str = "How can mirrors be real if our eyes aren't real";
 console.log(str.toJadenCase());
